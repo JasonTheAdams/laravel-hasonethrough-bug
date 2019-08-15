@@ -2,6 +2,9 @@
 The purpose of this repository is to provide a minimum Laravel project for a bug with hasOneThrough eloquent
 relationship. For more information please check out this issue: https://github.com/laravel/framework/issues/29574
 
+## On-Going Notes
+- The bug is specific to MySQL 8.0. If the tests are run using the SQLite driver, it works.
+
 ## How to see the bug
 1. Clone the project and run `composer install`
 2. Run `phpunit --testsuite=Unit`
